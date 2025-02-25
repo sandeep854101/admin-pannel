@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import axios from 'axios';
 
 axios.defaults.withCredentials = true;
-const BASE_URL = "http://localhost:4000/api/users";
+const BASE_URL = "https://admin-pannel-nn6i.onrender.com/api/users";
 
 const userStore = create((set) => ({
   users: [],
